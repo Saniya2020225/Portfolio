@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #020617, #0f172a);
+    color: white;
+}
+ /* Navbar */
+ nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #020617;
+ }
+
+ nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ }
+
+ .gradient-text{
+    background: linear-gradient(45deg,#3b82f6,#06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ /*Hero*/
+ .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    animation: fadeIn 2s;
+ }
+  .left img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #3b82f6;
+    transition: transform 0.3s;
+  }
+
+  .left img:hover{
+    transform: scale(1.1);
+  }
+
+  .right h1{
+    font-size: 45px;
+  }
+
+  .right button{
+    background: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+
+  .right button:hover{
+    background: #2563eb;
+  }
+
+  /*Sections*/
+  section{
+    padding: 50px;
+    text-align: center;
+  }
+  /*Skills*/
+  .skills{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .skill-box{
+    background: #1e293b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .skill-box:hover{
+    background: #3b82f6;
+  }
+
+  .card{
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+  }
+
+  .card:hover{
+    transform: translate(-10px);
+  }
+
+  /*projects*/
+  .project-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #1e293b;
+    padding: 15px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+
+  .project-container{
+    transform: translateY(-5px);
+  }
+  .project-container button:hover{
+    background: #2563eb;
+  }
+
+  /*Resume*/
+  .resume button{
+    background: #3b82f6;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  /*footer*/
+  footer{
+    background: #020617;
+    padding: 20px;
+  }
+
+  /*Animation*/
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to{opacity: 1;}
+  }
+
+  /*Responsive*/
+  @media(max-width: 768px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills{
+        flex-direction: column;
+    }
+  }

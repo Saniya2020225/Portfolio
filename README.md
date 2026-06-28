@@ -52,7 +52,7 @@ More projects will be added as I continue my learning journey.
 
 ## Live Demo
 
-- Demo: saniya2020225.github.io/Portfolio/
+- Demo: https://saniya2020225.github.io/Portfolio/
 
 ## 📄 License
 

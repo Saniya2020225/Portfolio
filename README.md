@@ -54,5 +54,9 @@ More projects will be added as I continue my learning journey.
 
 - Demo: saniya2020225.github.io/Portfolio/
 
+## 📄 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute this project in accordance with the license terms.
+
 
 **"Learning, Building, and Growing — One Project at a Time."** 🚀

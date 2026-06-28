@@ -1,4 +1,4 @@
-const text = "Web Developer";
+const text = "Frontend Developer | CyberSecurity and AI Enthusiast";
 let i = 0;
 
 function typing(){

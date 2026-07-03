@@ -32,13 +32,13 @@ Some of my featured projects include:
 - Password Strength Checker
 - Calculator
 - Rock Paper Scissors Game
-- AI Malware Detector System
+- AI Based Malware Detector System
 
 More projects will be added as I continue my learning journey.
 
 ## Goals
 
-- Develop impactful software solutions
+- Develop impactful software solutions with AI and cybersecurity
 - Strengthen problem-solving skills
 - Explore AI-driven applications
 - Collaborate with developers and contribute to the open-source community
